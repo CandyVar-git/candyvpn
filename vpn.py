@@ -2,8 +2,7 @@ import requests
 
 url = 'https://hidemy.name/ru/demo/'
 print('CandyVPN')
-print('Почту брать от сюда:')
-print('https://generator.email/')
+print('Почту брать от сюда: https://generator.email/')
 if 'Ваша электронная почта' in requests.get(url).text:
     
     email = input('Введите электронную почту для получения тестового периода: ')
